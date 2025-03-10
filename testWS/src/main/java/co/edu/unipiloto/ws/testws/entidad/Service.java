@@ -88,8 +88,9 @@ public class Service {
             count++;
             promedio += p.getSalary()/count;
         }
-        return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response>El salario promedio de las personas es: $" + promedio + "</response>";
         //return "El salario promedio de las personas es: $" + promedio;
+        
+        return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><response>El salario promedio de las personas es: $" + promedio + "</response>";
     }
     
     @GET
